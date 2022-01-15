@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="500"
+   height="500"
+   viewBox="0 0 132.29166 132.29167"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="github_label.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     units="px"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="405.17218"
+     inkscape:cy="265.16504"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:#000000;stroke:none;stroke-width:3.00984px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 0,0 H 132.29167 L 0,132.29167 Z"
+       id="path640"
+       sodipodi:nodetypes="cccc" />
+    <g
+       style="fill:#ffffff"
+       id="g42"
+       transform="matrix(1.4744863,-1.4744863,1.4744863,1.4744863,-7.8628116,39.32075)">
+      <path
+         fill-rule="evenodd"
+         clip-rule="evenodd"
+         d="M 16,0 C 7.16,0 0,7.16 0,16 c 0,7.08 4.58,13.06 10.94,15.18 0.8,0.14 1.1,-0.34 1.1,-0.76 0,-0.38 -0.02,-1.64 -0.02,-2.98 C 8,28.18 6.96,26.46 6.64,25.56 6.46,25.1 5.68,23.68 5,23.3 4.44,23 3.64,22.26 4.98,22.24 c 1.26,-0.02 2.16,1.16 2.46,1.64 1.44,2.42 3.74,1.74 4.66,1.32 0.14,-1.04 0.56,-1.74 1.02,-2.14 -3.56,-0.4 -7.28,-1.78 -7.28,-7.9 0,-1.74 0.62,-3.18 1.64,-4.3 -0.16,-0.4 -0.72,-2.04 0.16,-4.24 0,0 1.34,-0.42 4.4,1.64 1.28,-0.36 2.64,-0.54 4,-0.54 1.36,0 2.72,0.18 4,0.54 3.06,-2.08 4.4,-1.64 4.4,-1.64 0.88,2.2 0.32,3.84 0.16,4.24 1.02,1.12 1.64,2.54 1.64,4.3 0,6.14 -3.74,7.5 -7.3,7.9 0.58,0.5 1.08,1.46 1.08,2.96 0,2.14 -0.02,3.86 -0.02,4.4 0,0.42 0.3,0.92 1.1,0.76 C 27.42,29.06 32,23.06 32,16 32,7.16 24.84,0 16,0 Z"
+         fill="#24292e"
+         id="path33"
+         style="fill:#ffffff" />
+    </g>
+  </g>
+</svg>

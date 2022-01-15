@@ -1,0 +1,120 @@
+@media (max-width: 992px) {
+    section {
+        margin: 0 auto !important;
+        width: 90% !important;
+    }
+}
+
+html, body {
+    background-color: #111;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    color: #EEE;
+    font-family: "Roboto Mono", Arial, Helvetica, sans-serif;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+    width: 70%;
+    height: 100%;
+}
+
+h1, h2 {
+    font-size: 7vh;
+    margin: 0 0 1vh 0;
+    line-height: 110%;
+}
+
+p {
+    font-size: 2.5vh;
+    margin: 0 0 5vh 0;
+}
+
+button {
+    color: #000;
+    padding: 1vh 2vh;
+    font-size: 5vh;
+    font-family: "Roboto Mono", Arial, Helvetica, sans-serif;
+    border: 0;
+    outline: 0;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+button:hover {
+    filter: brightness(1.25);
+    letter-spacing: 1px;
+}
+
+#github_label {
+    background-image: url("github_label.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 15vh;
+    height: 15vh;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+#github_label:hover {
+    filter: invert(1);
+}
+
+#start-screen-play-button {
+    background-color: #3B913B;
+}
+
+#game-screen {
+    display: none;
+}
+
+#game-screen-points {
+    font-size: 3vh;
+}
+
+#game-screen-buttons-holder {
+    display: flex;
+    flex-direction: row;
+}
+
+#game-screen-buttons-holder button {
+    margin-left: 5vh;
+    background-color: #5F5FE5;
+    letter-spacing: 1px;
+}
+
+#game-screen-buttons-holder button:first-child {
+    margin-left: 0;
+}
+
+#game-screen-word {
+    font-size: 8vh;
+    margin: 5vh 0;
+}
+
+#lose-screen {
+    display: none;
+    color: #CA5656;
+}
+
+#lose-screen-total-score {
+    margin: 0 0 3vh 0;
+    font-size: 3.7vh;
+    color: #EEE;
+}
+
+#lose-screen-play-again-button {
+    background-color: #A01F1F;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta name="theme-color" content="#111">
+        <meta name="description" content="Visual Memory Game">
+        <meta name="keywords" content="visual memory game">
+        <meta property="og:title" content="Visual Memory Game">
+        <meta property="og:description" content="The classic visual memory game.">
+        <meta property="og:image" content="og.jpg">
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="https://jota11.github.io/visual-memory-game">
+        <title>Visual Memory Game</title>
+        <link href="favicon.png" type="image/png" rel="icon">
+        <link href="style.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet"> 
+    </head>
+    <body>
+        <section id="start-screen">
+            <a href="https://github.com/jota11/visual-memory-game" target="_blank" rel="noopener noreferrer">
+                <div id="github_label"></div>
+            </a>
+            <h1>Visual Memory Game</h1>
+            <p>
+                The classic visual memory game, but with computer nerd related words.
+                <br>
+                It's simple: if it's a word you didn't see before click "New", otherwise, click "Seen".
+            </p>
+            <button id="start-screen-play-button">Play</button>
+        </section>
+        <section id="game-screen">
+            <span id="game-screen-points">Points: [POINTS]</span>
+            <span id="game-screen-word">[CURRENT_WORD]</span>
+            <div id="game-screen-buttons-holder">
+                <button id="game-screen-new-button">New</button>
+                <button id="game-screen-seen-button">Seen</button>
+            </div>
+        </section>
+        <section id="lose-screen">
+            <h2>You lost</h2>
+            <span id="lose-screen-total-score">Total score: [TOTAL_POINTS]</span>
+            <button id="lose-screen-play-again-button">Play again</button>
+        </section>
+        <script src="core.js" type="text/javascript"></script>
+    </body>
+</html>
